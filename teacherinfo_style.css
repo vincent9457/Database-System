@@ -1,0 +1,123 @@
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      background-color: #f4f6fb;
+      margin: 0;
+      padding: 0;
+      padding-bottom: 50px;
+    }
+    header {
+      background-color: #73D0EB;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    h2.section-title {
+      color: #0055A5;  
+      margin: 30px auto 10px;
+      max-width: 900px;
+      font-size: 1.5em;
+    }
+    /*nav {
+      background-color: #0055a5;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }*/
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      background-color: white;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .block-title {
+      color: #0055a5;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+    ul {
+      margin: 0 0 10px 20px;
+      padding: 0;
+    }
+    footer {
+      background-color: #73D0EB;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    img.teacher-photo {
+      height: 120px;
+      width: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-right: 10px;
+    }
+    .toggle-sub-btn {
+        background: #0055a5;
+        border: 2px solid #0055a5;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-right: 8px;
+        transition: background 0.2s, border 0.2s;
+    }
+    .toggle-sub-btn:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #003366;
+    }
+    .toggle-sub-btn i {
+        color: #fff;
+        font-size: 1.1em;
+        transition: color 0.2s;
+    }
+    .breadcrumb {
+    font-size: 0.95em;
+    margin: 0 auto 20px;
+    max-width: 900px;
+    padding-left: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.breadcrumb a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    margin: 0 8px;
+    color: #666;
+}
+
+    

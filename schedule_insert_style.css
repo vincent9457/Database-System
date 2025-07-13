@@ -1,0 +1,128 @@
+body {
+  font-family: "Noto Sans TC", "Segoe UI", Tahoma, sans-serif;
+  background-color: #f4f6fb;
+  color: #2c3e50;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+form label {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  margin-top: 20px;
+}
+
+/* 統一 input/select 外觀 */
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #2f80ed;
+  outline: none;
+}
+
+/* 類別動態欄位 */
+.category-group {
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  border-left: 4px solid #2f80ed;
+  border-radius: 10px;
+}
+
+/* 作者區 */
+h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+/* 統一按鈕樣式 */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #1c66d4;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* 返回列表按鈕樣式 */
+.btn-outline {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 2px solid #2f80ed;
+  color: #2f80ed;
+  background-color: transparent;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #eaf2ff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #2f80ed;
+  outline: none;
+}
+

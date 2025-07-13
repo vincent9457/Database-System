@@ -1,0 +1,135 @@
+body {
+    font-family: "Microsoft JhengHei", sans-serif;
+    background-color: #f4f6fb;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+header {
+    background-color: #73D0EB;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+  color: #0055A5;  
+  margin: 30px auto 20px;
+  max-width: 900px;
+  font-size: 1.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+section {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+table {
+    width: 1200px;
+    min-width: 1200px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: fixed;
+}
+th, td {
+    border: 1px solid #bbb;
+    padding: 8px 10px;
+    text-align: left; /* 課程資料靠中 */
+    font-size: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+th {
+    background: #e6e6e6;
+    font-weight: bold;
+    white-space: nowrap;
+}
+td {
+    background: #fff;
+    white-space: normal;
+    word-break: break-all;
+    text-align: left; /* 課程資料靠右 */
+}
+.teacher-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teacher-header img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.13);
+    margin-left: 32px;
+    margin-right: 0;
+}
+footer {
+    background-color: #73D0EB;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.breadcrumb {
+    font-size: 0.95em;
+    margin: 0 auto 20px;
+    max-width: 900px;
+    padding-left: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.breadcrumb a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    margin: 0 8px;
+    color: #666;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  overflow: hidden;
+  table-layout: fixed;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.styled-table th {
+  background-color: #f0f4fa;
+  font-weight: 600;
+}
+
+.styled-table tr:hover {
+  background-color: #f9fbff;
+}

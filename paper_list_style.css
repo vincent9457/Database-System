@@ -1,0 +1,135 @@
+body {
+  font-family: "Noto Sans TC", "Segoe UI", Tahoma, sans-serif;
+  background-color: #f4f6fb;
+  margin: 0;
+  padding: 40px;
+  color: #2c3e50;
+}
+
+/* 標題區 */
+h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+/* 搜尋區 */
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+}
+
+input[type="submit"] {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #1c66d4;
+}
+
+/* 表格樣式 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f4fa;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f9fbff;
+}
+
+/* 操作連結 */
+td a {
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 4px;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+/* 新增與返回按鈕 */
+a.add-link,
+a.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+a.add-link:hover,
+a.back-link:hover {
+  text-decoration: underline;
+}
+/* 統一按鈕樣式 */
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none; /* 移除底線 */
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1c66d4;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* 副樣式：白底藍框按鈕 */
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #2f80ed;
+  color: #2f80ed;
+}
+
+.btn-outline:hover {
+  background-color: #eaf2ff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* 加上間距美化 */
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}

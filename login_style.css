@@ -1,0 +1,100 @@
+/* 背景整體風格 */
+body {
+  font-family: "Noto Sans TC", "Segoe UI", Tahoma, sans-serif;
+  background-color: #f4f6fb;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 白色卡片容器 */
+.container {
+  background-color: #ffffff;
+  padding: 55px 65px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 440px;
+}
+
+/* 標題設計 */
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* 表單每個欄位對齊 */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+  gap: 12px;
+}
+
+/* 標籤靠右 + 垂直置中 */
+.form-group label {
+  width: 60px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: right;
+  color: #2c3e50;
+  line-height: 42px;
+  flex-shrink: 0;
+}
+
+/* 輸入框美化 */
+.form-group input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #2f80ed;
+  outline: none;
+}
+
+/* 登入按鈕 */
+input[type="submit"] {
+  width: 100%;
+  padding: 13px;
+  background-color: #2f80ed;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+  background-color: #1c66d4;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* 註冊連結樣式 */
+p {
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+a {
+  color: #9b59b6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
